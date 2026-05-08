@@ -14,7 +14,7 @@ class NeuralNetwork:
     def sigmoid(self,x):
         return 1/(1+np.exp(-np.clip(x,-250,250)))
 
-    def sigmoid_derivative(seld,a):
+    def sigmoid_derivative(self,a):
         return a*(1-a)
 
     def softmax(self,x):
